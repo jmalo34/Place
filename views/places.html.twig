@@ -9,6 +9,9 @@
         <ul>
             {% for place in places %}
             <li>{{ place.getCiudad }}</li>
+            <ul>
+                <li>{{ place.getDuration }}</li>
+            </ul>
             {% endfor %}
         </ul>
     {% endif %}
@@ -16,6 +19,8 @@
         <form action='/places' method='post'>
             <label for='ciudad'>City Name</label>
             <input id='ciudad' name='ciudad' type='text'>
+            <label for='duration'>duration of stay:</label>
+            <input id='duration' name='duration' type='text'>
 
             <button type='submit'>Add Place</button>
         </form>
