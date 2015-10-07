@@ -18,7 +18,7 @@ _{This app holds a list of cities input by a user, and will hold details such as
 
 ## Technologies Used
 
-_{HTML, Bootstrap, CSS, Silex, Twig, composer, PHP}_
+_{HTML, Silex, Twig, composer, PHP}_
 
 ### Legal
 
